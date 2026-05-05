@@ -1,0 +1,225 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\lucas.kvsilva1\\source\\repos\\BibliotecaRemake\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A15528EA-C223-440E-A961-1F32D45A3805}|BibliotecaRemake.csproj|c:\\users\\lucas.kvsilva1\\source\\repos\\bibliotecaremake\\funcionariocontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A15528EA-C223-440E-A961-1F32D45A3805}|BibliotecaRemake.csproj|solutionrelative:funcionariocontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A15528EA-C223-440E-A961-1F32D45A3805}|BibliotecaRemake.csproj|C:\\Users\\lucas.kvsilva1\\source\\repos\\BibliotecaRemake\\funcionariocontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{A15528EA-C223-440E-A961-1F32D45A3805}|BibliotecaRemake.csproj|solutionrelative:funcionariocontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A15528EA-C223-440E-A961-1F32D45A3805}|BibliotecaRemake.csproj|C:\\Users\\lucas.kvsilva1\\source\\repos\\BibliotecaRemake\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{A15528EA-C223-440E-A961-1F32D45A3805}|BibliotecaRemake.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A15528EA-C223-440E-A961-1F32D45A3805}|BibliotecaRemake.csproj|C:\\Users\\lucas.kvsilva1\\source\\repos\\BibliotecaRemake\\usuarioscontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A15528EA-C223-440E-A961-1F32D45A3805}|BibliotecaRemake.csproj|solutionrelative:usuarioscontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A15528EA-C223-440E-A961-1F32D45A3805}|BibliotecaRemake.csproj|C:\\Users\\lucas.kvsilva1\\source\\repos\\BibliotecaRemake\\usuarioscontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{A15528EA-C223-440E-A961-1F32D45A3805}|BibliotecaRemake.csproj|solutionrelative:usuarioscontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A15528EA-C223-440E-A961-1F32D45A3805}|BibliotecaRemake.csproj|C:\\Users\\lucas.kvsilva1\\source\\repos\\BibliotecaRemake\\emprestimoscontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{A15528EA-C223-440E-A961-1F32D45A3805}|BibliotecaRemake.csproj|solutionrelative:emprestimoscontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A15528EA-C223-440E-A961-1F32D45A3805}|BibliotecaRemake.csproj|C:\\Users\\lucas.kvsilva1\\source\\repos\\BibliotecaRemake\\livros.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A15528EA-C223-440E-A961-1F32D45A3805}|BibliotecaRemake.csproj|solutionrelative:livros.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A15528EA-C223-440E-A961-1F32D45A3805}|BibliotecaRemake.csproj|C:\\Users\\lucas.kvsilva1\\source\\repos\\BibliotecaRemake\\livros.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{A15528EA-C223-440E-A961-1F32D45A3805}|BibliotecaRemake.csproj|solutionrelative:livros.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00000000-0000-0000-0000-000000000000}|\u003CSolution\u003E|BibliotecaRemake||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A15528EA-C223-440E-A961-1F32D45A3805}|BibliotecaRemake.csproj|C:\\Users\\lucas.kvsilva1\\source\\repos\\BibliotecaRemake\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A15528EA-C223-440E-A961-1F32D45A3805}|BibliotecaRemake.csproj|solutionrelative:login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A15528EA-C223-440E-A961-1F32D45A3805}|BibliotecaRemake.csproj|C:\\Users\\lucas.kvsilva1\\source\\repos\\BibliotecaRemake\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{A15528EA-C223-440E-A961-1F32D45A3805}|BibliotecaRemake.csproj|solutionrelative:login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A15528EA-C223-440E-A961-1F32D45A3805}|BibliotecaRemake.csproj|C:\\Users\\lucas.kvsilva1\\source\\repos\\BibliotecaRemake\\bibliotecadbdataset.xsd||{07AC752B-D2B0-4DCD-AD9C-237BF561A30A}",
+      "RelativeMoniker": "D:0:0:{A15528EA-C223-440E-A961-1F32D45A3805}|BibliotecaRemake.csproj|solutionrelative:bibliotecadbdataset.xsd||{07AC752B-D2B0-4DCD-AD9C-237BF561A30A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A15528EA-C223-440E-A961-1F32D45A3805}|BibliotecaRemake.csproj|C:\\Users\\lucas.kvsilva1\\source\\repos\\BibliotecaRemake\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A15528EA-C223-440E-A961-1F32D45A3805}|BibliotecaRemake.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Livros.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\lucas.kvsilva1\\source\\repos\\BibliotecaRemake\\Livros.cs",
+              "RelativeDocumentMoniker": "Livros.cs",
+              "ToolTip": "C:\\Users\\lucas.kvsilva1\\source\\repos\\BibliotecaRemake\\Livros.cs [Design]",
+              "RelativeToolTip": "Livros.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-14T19:30:13.649Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FuncionarioControl.cs",
+              "DocumentMoniker": "C:\\Users\\lucas.kvsilva1\\source\\repos\\BibliotecaRemake\\FuncionarioControl.cs",
+              "RelativeDocumentMoniker": "FuncionarioControl.cs",
+              "ToolTip": "C:\\Users\\lucas.kvsilva1\\source\\repos\\BibliotecaRemake\\FuncionarioControl.cs",
+              "RelativeToolTip": "FuncionarioControl.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAB4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-05T18:47:24.957Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Livros.cs",
+              "DocumentMoniker": "C:\\Users\\lucas.kvsilva1\\source\\repos\\BibliotecaRemake\\Livros.cs",
+              "RelativeDocumentMoniker": "Livros.cs",
+              "ToolTip": "C:\\Users\\lucas.kvsilva1\\source\\repos\\BibliotecaRemake\\Livros.cs",
+              "RelativeToolTip": "Livros.cs",
+              "ViewState": "AgIAAE8AAAAAAAAAAAAAwC0AAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-05T17:11:14.649Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "BibliotecaRemake",
+              "DocumentMoniker": "C:\\Users\\lucas.kvsilva1\\source\\repos\\BibliotecaRemake\\BibliotecaRemake.csproj",
+              "RelativeDocumentMoniker": "BibliotecaRemake.csproj",
+              "ToolTip": "C:\\Users\\lucas.kvsilva1\\source\\repos\\BibliotecaRemake\\BibliotecaRemake.csproj",
+              "RelativeToolTip": "BibliotecaRemake.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-04-29T19:32:57.544Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Login.cs",
+              "DocumentMoniker": "C:\\Users\\lucas.kvsilva1\\source\\repos\\BibliotecaRemake\\Login.cs",
+              "RelativeDocumentMoniker": "Login.cs",
+              "ToolTip": "C:\\Users\\lucas.kvsilva1\\source\\repos\\BibliotecaRemake\\Login.cs",
+              "RelativeToolTip": "Login.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAgwCYAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-29T17:24:11.384Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Login.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\lucas.kvsilva1\\source\\repos\\BibliotecaRemake\\Login.cs",
+              "RelativeDocumentMoniker": "Login.cs",
+              "ToolTip": "C:\\Users\\lucas.kvsilva1\\source\\repos\\BibliotecaRemake\\Login.cs [Design]",
+              "RelativeToolTip": "Login.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-29T17:04:09.501Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UsuariosControl.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\lucas.kvsilva1\\source\\repos\\BibliotecaRemake\\UsuariosControl.cs",
+              "RelativeDocumentMoniker": "UsuariosControl.cs",
+              "ToolTip": "C:\\Users\\lucas.kvsilva1\\source\\repos\\BibliotecaRemake\\UsuariosControl.cs [Design]",
+              "RelativeToolTip": "UsuariosControl.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-15T20:06:15.728Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "BibliotecaDBDataSet.xsd",
+              "DocumentMoniker": "C:\\Users\\lucas.kvsilva1\\source\\repos\\BibliotecaRemake\\BibliotecaDBDataSet.xsd",
+              "RelativeDocumentMoniker": "BibliotecaDBDataSet.xsd",
+              "ToolTip": "C:\\Users\\lucas.kvsilva1\\source\\repos\\BibliotecaRemake\\BibliotecaDBDataSet.xsd",
+              "RelativeToolTip": "BibliotecaDBDataSet.xsd",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003579|",
+              "WhenOpened": "2026-04-17T19:09:47.393Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "EmprestimosControl.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\lucas.kvsilva1\\source\\repos\\BibliotecaRemake\\EmprestimosControl.cs",
+              "RelativeDocumentMoniker": "EmprestimosControl.cs",
+              "ToolTip": "C:\\Users\\lucas.kvsilva1\\source\\repos\\BibliotecaRemake\\EmprestimosControl.cs [Design]",
+              "RelativeToolTip": "EmprestimosControl.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-17T17:34:47.602Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FuncionarioControl.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\lucas.kvsilva1\\source\\repos\\BibliotecaRemake\\FuncionarioControl.cs",
+              "RelativeDocumentMoniker": "FuncionarioControl.cs",
+              "ToolTip": "C:\\Users\\lucas.kvsilva1\\source\\repos\\BibliotecaRemake\\FuncionarioControl.cs [Design]",
+              "RelativeToolTip": "FuncionarioControl.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-15T19:58:53.395Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\lucas.kvsilva1\\source\\repos\\BibliotecaRemake\\Form1.cs",
+              "RelativeDocumentMoniker": "Form1.cs",
+              "ToolTip": "C:\\Users\\lucas.kvsilva1\\source\\repos\\BibliotecaRemake\\Form1.cs [Design]",
+              "RelativeToolTip": "Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-14T16:54:52.345Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UsuariosControl.cs",
+              "DocumentMoniker": "C:\\Users\\lucas.kvsilva1\\source\\repos\\BibliotecaRemake\\UsuariosControl.cs",
+              "RelativeDocumentMoniker": "UsuariosControl.cs",
+              "ToolTip": "C:\\Users\\lucas.kvsilva1\\source\\repos\\BibliotecaRemake\\UsuariosControl.cs",
+              "RelativeToolTip": "UsuariosControl.cs",
+              "ViewState": "AgIAACYAAAAAAAAAAAAwwDoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-17T19:17:27.876Z"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\lucas.kvsilva1\\source\\repos\\BibliotecaRemake\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\lucas.kvsilva1\\source\\repos\\BibliotecaRemake\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-29T17:38:13.717Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

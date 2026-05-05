@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36908.2 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BibliotecaRemake", "BibliotecaRemake.csproj", "{A15528EA-C223-440E-A961-1F32D45A3805}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A15528EA-C223-440E-A961-1F32D45A3805}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A15528EA-C223-440E-A961-1F32D45A3805}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A15528EA-C223-440E-A961-1F32D45A3805}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A15528EA-C223-440E-A961-1F32D45A3805}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2ED9567B-6669-43CF-AB93-A1BD44EE5C09}
+	EndGlobalSection
+EndGlobal
