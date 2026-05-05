@@ -32,8 +32,8 @@ namespace BibliotecaRemake
                            select linha).FirstOrDefault();
             if (usuario == null)
             {
-                MessageBox.Show("O login está incorreto ou não existe.\nVerifica com o suporte.");
-                return;
+                /*MessageBox.Show("O login está incorreto ou não existe.\nVerifica com o suporte.");
+                return;*/
             }
             saida = true;
             Close();

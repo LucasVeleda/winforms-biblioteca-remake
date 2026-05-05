@@ -4,6 +4,14 @@
 
     partial class BibliotecaDBDataSet
     {
+        partial class FuncionariosRow
+        {
+            public override string ToString()
+            {
+                return this.ID_funcionario + " - " + this.NomeUsuario;
+            }
+        }
+
         partial class UsuariosDataTable
         {
         }

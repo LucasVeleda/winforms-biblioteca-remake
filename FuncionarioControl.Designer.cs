@@ -28,13 +28,13 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.txtProcurePorUmo = new System.Windows.Forms.TextBox();
+            this.txtProcureFuncionario = new System.Windows.Forms.TextBox();
             this.btnAtualizarLista = new System.Windows.Forms.Button();
             this.btnRemover = new System.Windows.Forms.Button();
             this.btnAtualizar = new System.Windows.Forms.Button();
             this.btnCadastrar = new System.Windows.Forms.Button();
             this.lblProcurePorUmFuncionario = new System.Windows.Forms.Label();
-            this.listBox1 = new System.Windows.Forms.ListBox();
+            this.lboFuncionarios = new System.Windows.Forms.ListBox();
             this.lblDigiteOTelefone = new System.Windows.Forms.Label();
             this.lblDigiteOEmail = new System.Windows.Forms.Label();
             this.lblDigiteONomeDeUsuario = new System.Windows.Forms.Label();
@@ -44,12 +44,12 @@
             this.btnVoltarFuncionarios = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // txtProcurePorUmo
+            // txtProcureFuncionario
             // 
-            this.txtProcurePorUmo.Location = new System.Drawing.Point(413, 39);
-            this.txtProcurePorUmo.Name = "txtProcurePorUmo";
-            this.txtProcurePorUmo.Size = new System.Drawing.Size(336, 20);
-            this.txtProcurePorUmo.TabIndex = 51;
+            this.txtProcureFuncionario.Location = new System.Drawing.Point(413, 39);
+            this.txtProcureFuncionario.Name = "txtProcureFuncionario";
+            this.txtProcureFuncionario.Size = new System.Drawing.Size(336, 20);
+            this.txtProcureFuncionario.TabIndex = 51;
             // 
             // btnAtualizarLista
             // 
@@ -96,14 +96,14 @@
             this.lblProcurePorUmFuncionario.TabIndex = 46;
             this.lblProcurePorUmFuncionario.Text = "Procure por um funcionário:";
             // 
-            // listBox1
+            // lboFuncionarios
             // 
-            this.listBox1.FormattingEnabled = true;
-            this.listBox1.Location = new System.Drawing.Point(413, 76);
-            this.listBox1.Name = "listBox1";
-            this.listBox1.Size = new System.Drawing.Size(336, 95);
-            this.listBox1.TabIndex = 45;
-            this.listBox1.SelectedIndexChanged += new System.EventHandler(this.listBox1_SelectedIndexChanged);
+            this.lboFuncionarios.FormattingEnabled = true;
+            this.lboFuncionarios.Location = new System.Drawing.Point(413, 76);
+            this.lboFuncionarios.Name = "lboFuncionarios";
+            this.lboFuncionarios.Size = new System.Drawing.Size(336, 95);
+            this.lboFuncionarios.TabIndex = 45;
+            this.lboFuncionarios.SelectedIndexChanged += new System.EventHandler(this.listBox1_SelectedIndexChanged);
             // 
             // lblDigiteOTelefone
             // 
@@ -169,13 +169,13 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.Controls.Add(this.btnVoltarFuncionarios);
-            this.Controls.Add(this.txtProcurePorUmo);
+            this.Controls.Add(this.txtProcureFuncionario);
             this.Controls.Add(this.btnAtualizarLista);
             this.Controls.Add(this.btnRemover);
             this.Controls.Add(this.btnAtualizar);
             this.Controls.Add(this.btnCadastrar);
             this.Controls.Add(this.lblProcurePorUmFuncionario);
-            this.Controls.Add(this.listBox1);
+            this.Controls.Add(this.lboFuncionarios);
             this.Controls.Add(this.lblDigiteOTelefone);
             this.Controls.Add(this.lblDigiteOEmail);
             this.Controls.Add(this.lblDigiteONomeDeUsuario);
@@ -191,13 +191,13 @@
 
         #endregion
 
-        private System.Windows.Forms.TextBox txtProcurePorUmo;
+        private System.Windows.Forms.TextBox txtProcureFuncionario;
         private System.Windows.Forms.Button btnAtualizarLista;
         private System.Windows.Forms.Button btnRemover;
         private System.Windows.Forms.Button btnAtualizar;
         private System.Windows.Forms.Button btnCadastrar;
         private System.Windows.Forms.Label lblProcurePorUmFuncionario;
-        private System.Windows.Forms.ListBox listBox1;
+        private System.Windows.Forms.ListBox lboFuncionarios;
         private System.Windows.Forms.Label lblDigiteOTelefone;
         private System.Windows.Forms.Label lblDigiteOEmail;
         private System.Windows.Forms.Label lblDigiteONomeDeUsuario;
