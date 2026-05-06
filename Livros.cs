@@ -44,10 +44,14 @@ namespace BibliotecaRemake
         private void lboLivros_SelectedIndexChanged(object sender, EventArgs e)
         {
             if (lboLivros.SelectedItem == null) return;
+
             LivrosRow livro = lboLivros.SelectedItem as LivrosRow;
+
             if (livro == null) return;
+
             btnAjustes.Text = "Atualizar";
             btnAcoes.Text = "Excluir";
+
             txtTitulo.Text = livro.Titulo;
             txtGenero.Text = livro.Genero;
             txtQuantidade.Text = livro.QuantidadeDisponivel.ToString();
@@ -136,5 +140,6 @@ namespace BibliotecaRemake
                 }
             }
         }
+
     }
 }
