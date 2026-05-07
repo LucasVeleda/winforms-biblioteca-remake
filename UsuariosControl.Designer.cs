@@ -30,11 +30,10 @@
         {
             this.txtProcurePorUmUsuario = new System.Windows.Forms.TextBox();
             this.btnAtualizarLista = new System.Windows.Forms.Button();
-            this.btnRemover = new System.Windows.Forms.Button();
-            this.btnAtualizar = new System.Windows.Forms.Button();
-            this.btnCadastrar = new System.Windows.Forms.Button();
+            this.btnAcoes = new System.Windows.Forms.Button();
+            this.btnAjustes = new System.Windows.Forms.Button();
             this.lblProcurePorUmUsuario = new System.Windows.Forms.Label();
-            this.listBox1 = new System.Windows.Forms.ListBox();
+            this.lboUsuarios = new System.Windows.Forms.ListBox();
             this.lblDigiteOTelefone = new System.Windows.Forms.Label();
             this.lblDigiteOEmail = new System.Windows.Forms.Label();
             this.lblDigiteONomeDeUsuario = new System.Windows.Forms.Label();
@@ -61,33 +60,25 @@
             this.btnAtualizarLista.UseVisualStyleBackColor = true;
             this.btnAtualizarLista.Click += new System.EventHandler(this.btnAtualizarLista_Click);
             // 
-            // btnRemover
+            // btnAcoes
             // 
-            this.btnRemover.Location = new System.Drawing.Point(252, 192);
-            this.btnRemover.Name = "btnRemover";
-            this.btnRemover.Size = new System.Drawing.Size(126, 23);
-            this.btnRemover.TabIndex = 36;
-            this.btnRemover.Text = "Remover";
-            this.btnRemover.UseVisualStyleBackColor = true;
+            this.btnAcoes.Location = new System.Drawing.Point(207, 192);
+            this.btnAcoes.Name = "btnAcoes";
+            this.btnAcoes.Size = new System.Drawing.Size(171, 23);
+            this.btnAcoes.TabIndex = 35;
+            this.btnAcoes.Text = "Atualizar";
+            this.btnAcoes.UseVisualStyleBackColor = true;
+            this.btnAcoes.Click += new System.EventHandler(this.btnAcoes_Click);
             // 
-            // btnAtualizar
+            // btnAjustes
             // 
-            this.btnAtualizar.Location = new System.Drawing.Point(124, 192);
-            this.btnAtualizar.Name = "btnAtualizar";
-            this.btnAtualizar.Size = new System.Drawing.Size(106, 23);
-            this.btnAtualizar.TabIndex = 35;
-            this.btnAtualizar.Text = "Atualizar";
-            this.btnAtualizar.UseVisualStyleBackColor = true;
-            // 
-            // btnCadastrar
-            // 
-            this.btnCadastrar.Location = new System.Drawing.Point(14, 192);
-            this.btnCadastrar.Name = "btnCadastrar";
-            this.btnCadastrar.Size = new System.Drawing.Size(104, 23);
-            this.btnCadastrar.TabIndex = 34;
-            this.btnCadastrar.Text = "Cadastrar";
-            this.btnCadastrar.UseVisualStyleBackColor = true;
-            this.btnCadastrar.Click += new System.EventHandler(this.btnCadastrar_Click);
+            this.btnAjustes.Location = new System.Drawing.Point(14, 192);
+            this.btnAjustes.Name = "btnAjustes";
+            this.btnAjustes.Size = new System.Drawing.Size(172, 23);
+            this.btnAjustes.TabIndex = 34;
+            this.btnAjustes.Text = "Cadastrar";
+            this.btnAjustes.UseVisualStyleBackColor = true;
+            this.btnAjustes.Click += new System.EventHandler(this.btnCadastrar_Click);
             // 
             // lblProcurePorUmUsuario
             // 
@@ -98,14 +89,14 @@
             this.lblProcurePorUmUsuario.TabIndex = 33;
             this.lblProcurePorUmUsuario.Text = "Procure por um usuário:";
             // 
-            // listBox1
+            // lboUsuarios
             // 
-            this.listBox1.FormattingEnabled = true;
-            this.listBox1.Location = new System.Drawing.Point(406, 78);
-            this.listBox1.Name = "listBox1";
-            this.listBox1.Size = new System.Drawing.Size(336, 95);
-            this.listBox1.TabIndex = 32;
-            this.listBox1.SelectedIndexChanged += new System.EventHandler(this.listBox1_SelectedIndexChanged);
+            this.lboUsuarios.FormattingEnabled = true;
+            this.lboUsuarios.Location = new System.Drawing.Point(406, 78);
+            this.lboUsuarios.Name = "lboUsuarios";
+            this.lboUsuarios.Size = new System.Drawing.Size(336, 95);
+            this.lboUsuarios.TabIndex = 32;
+            this.lboUsuarios.SelectedIndexChanged += new System.EventHandler(this.listBox1_SelectedIndexChanged);
             // 
             // lblDigiteOTelefone
             // 
@@ -173,11 +164,10 @@
             this.Controls.Add(this.btnVoltar);
             this.Controls.Add(this.txtProcurePorUmUsuario);
             this.Controls.Add(this.btnAtualizarLista);
-            this.Controls.Add(this.btnRemover);
-            this.Controls.Add(this.btnAtualizar);
-            this.Controls.Add(this.btnCadastrar);
+            this.Controls.Add(this.btnAcoes);
+            this.Controls.Add(this.btnAjustes);
             this.Controls.Add(this.lblProcurePorUmUsuario);
-            this.Controls.Add(this.listBox1);
+            this.Controls.Add(this.lboUsuarios);
             this.Controls.Add(this.lblDigiteOTelefone);
             this.Controls.Add(this.lblDigiteOEmail);
             this.Controls.Add(this.lblDigiteONomeDeUsuario);
@@ -195,11 +185,10 @@
 
         private System.Windows.Forms.TextBox txtProcurePorUmUsuario;
         private System.Windows.Forms.Button btnAtualizarLista;
-        private System.Windows.Forms.Button btnRemover;
-        private System.Windows.Forms.Button btnAtualizar;
-        private System.Windows.Forms.Button btnCadastrar;
+        private System.Windows.Forms.Button btnAcoes;
+        private System.Windows.Forms.Button btnAjustes;
         private System.Windows.Forms.Label lblProcurePorUmUsuario;
-        private System.Windows.Forms.ListBox listBox1;
+        private System.Windows.Forms.ListBox lboUsuarios;
         private System.Windows.Forms.Label lblDigiteOTelefone;
         private System.Windows.Forms.Label lblDigiteOEmail;
         private System.Windows.Forms.Label lblDigiteONomeDeUsuario;

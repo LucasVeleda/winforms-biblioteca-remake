@@ -1,14 +1,35 @@
-﻿namespace BibliotecaRemake
+﻿using System.Linq.Expressions;
+
+namespace BibliotecaRemake
 {
 
 
     partial class BibliotecaDBDataSet
     {
+        partial class FuncionariosDataTable
+        {
+        }
+
         partial class FuncionariosRow
         {
+            public string nomeUsuario { 
+                get
+                {
+                    try
+                    {
+                        
+                        return NomeUsuario;
+                    }
+
+                    catch
+                    {
+                        return "";
+                    }
+                }
+            }
             public override string ToString()
             {
-                return this.ID_funcionario + " - " + this.NomeUsuario;
+                return this.ID_funcionario + " - " + this.nomeUsuario;
             }
         }
 

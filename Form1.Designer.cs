@@ -39,6 +39,7 @@
             this.btnLivros = new Siticone.Desktop.UI.WinForms.SiticoneButton();
             this.tcControle = new MaterialSkin.Controls.MaterialTabControl();
             this.tpEmprestimos = new System.Windows.Forms.TabPage();
+            this.siticoneButton1 = new Siticone.Desktop.UI.WinForms.SiticoneButton();
             this.tpTelaPrincipal.SuspendLayout();
             this.tcControle.SuspendLayout();
             this.SuspendLayout();
@@ -86,6 +87,7 @@
             // tpTelaPrincipal
             // 
             this.tpTelaPrincipal.BackColor = System.Drawing.Color.LightBlue;
+            this.tpTelaPrincipal.Controls.Add(this.siticoneButton1);
             this.tpTelaPrincipal.Controls.Add(this.btnEmprestismos);
             this.tpTelaPrincipal.Controls.Add(this.btnFuncionarios);
             this.tpTelaPrincipal.Controls.Add(this.btnUsuarios);
@@ -126,7 +128,7 @@
             this.btnFuncionarios.Name = "btnFuncionarios";
             this.btnFuncionarios.Size = new System.Drawing.Size(162, 45);
             this.btnFuncionarios.TabIndex = 3;
-            this.btnFuncionarios.Text = "Funcionarios";
+            this.btnFuncionarios.Text = "Funcionários";
             this.btnFuncionarios.Click += new System.EventHandler(this.btnFuncionarios_Click);
             // 
             // btnUsuarios
@@ -188,6 +190,21 @@
             this.tpEmprestimos.Text = "Emprestimos";
             this.tpEmprestimos.UseVisualStyleBackColor = true;
             // 
+            // siticoneButton1
+            // 
+            this.siticoneButton1.Animated = true;
+            this.siticoneButton1.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.siticoneButton1.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.siticoneButton1.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.siticoneButton1.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.siticoneButton1.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.siticoneButton1.ForeColor = System.Drawing.Color.White;
+            this.siticoneButton1.Location = new System.Drawing.Point(19, 223);
+            this.siticoneButton1.Name = "siticoneButton1";
+            this.siticoneButton1.Size = new System.Drawing.Size(162, 45);
+            this.siticoneButton1.TabIndex = 5;
+            this.siticoneButton1.Text = "Devolução";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -215,6 +232,7 @@
         private MaterialSkin.Controls.MaterialTabControl tcControle;
         private Siticone.Desktop.UI.WinForms.SiticoneButton btnEmprestismos;
         private System.Windows.Forms.TabPage tpEmprestimos;
+        private Siticone.Desktop.UI.WinForms.SiticoneButton siticoneButton1;
     }
 }
 

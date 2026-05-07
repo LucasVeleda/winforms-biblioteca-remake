@@ -19,6 +19,8 @@ namespace BibliotecaRemake
         public FuncionarioControl()
         {
             InitializeComponent();
+            btnAcoes.Text = "Cadastrar";
+            btnAjustes.Text = "Atualizar Lista";
             AtualizarLista();
         }
 
@@ -29,14 +31,15 @@ namespace BibliotecaRemake
 
             var dados = from linha in funcionarios.GetData()
                         select linha;
+
             foreach (FuncionariosRow dado in dados) lboFuncionarios.Items.Add(dado);
         }
 
         private void limparElementos()
         {
-            txtBoxDigiteONome.Text = " ";
-            txtBoxDigiteOEmail.Text = " ";
-            txtBoxDigiteOCargo.Text = " ";            
+            txtBoxDigiteONome.Clear();
+            txtBoxDigiteOEmail.Clear();
+            txtBoxDigiteOCargo.Clear();            
         }
 
 

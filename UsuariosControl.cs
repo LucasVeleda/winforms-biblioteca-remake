@@ -19,6 +19,8 @@ namespace BibliotecaRemake
         public UsuariosControl()
         {
             InitializeComponent();
+            btnAcoes.Text = "Cadastrar";
+            btnAjustes.Text = "Atualizar Lista";
             AtualizarLista();
         }
 
@@ -44,21 +46,52 @@ namespace BibliotecaRemake
 
         }
 
+        private void limparElementos()
+        {
+            txtBoxDigiteONome.Clear();
+            txtBoxDigiteOEmail.Clear();
+            txtBoxDigiteOTelefone.Clear();
+        }
+
         private void AtualizarLista()
         {
-            listBox1.Items.Clear();
+            lboUsuarios.Items.Clear();
             UsuariosTableAdapter UsuariosDados = new UsuariosTableAdapter();
             var dados = from linha in UsuariosDados.GetData()
                         select linha;
-            foreach (UsuariosRow dado in dados) listBox1.Items.Add(dado);
+            foreach (UsuariosRow dado in dados) lboUsuarios.Items.Add(dado);
 
         }
 
         private void listBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
+            if (lboUsuarios.SelectedItem == null) return;
 
+            UsuariosRow usuario = lboUsuarios.SelectedItem as UsuariosRow;
+
+            if (usuario == null) return;
+
+            btnAcoes.Text = "Excluir";
+            btnAjustes.Text = "Atualizar";
+
+            txtBoxDigiteONome.Text = usuario.Nome;
+            txtBoxDigiteOEmail.Text = usuario.Email;
+            txtBoxDigiteOTelefone.Text = usuario.Telefone;
         }
 
+        private void btnAcoes_Click(object sender, EventArgs e)
+        {
+            if (btnAcoes.Text == "Excluir")
+            {
+                if (lboUsuarios.SelectedItems == null) return;
+                LivrosRow livro = lboUsuarios.SelectedItem as LivrosRow;
+                if (livro == null) return;
+                LivrosTableAdapter livros = new LivrosTableAdapter();
+                livros.Delete(livro.LivroID);
+                AtualizarLista();
+                limparElementos();
+            }
+        }
     }
     }
 
